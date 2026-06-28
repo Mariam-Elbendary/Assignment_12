@@ -79,9 +79,9 @@ export default class Question {
     this.answered = false;
     this.timerInterval = null;
     this.timeRemaining = 15;
-    this.correctSound = new Audio('../assets/correct.mp3');
-    this.wrongSound = new Audio('../assets/wrong.mp3');
-    this.tickSound = new Audio('../assets/tick.mp3');
+    this.correctSound = new Audio('assets/correct.mp3');
+    this.wrongSound = new Audio('assets/wrong.mp3');
+    this.tickSound = new Audio('assets/tick.mp3');
 }
 
   
